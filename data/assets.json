@@ -1,0 +1,513 @@
+[{
+    "name": "Ambev",
+    "asset": "ABEV3",
+    "last": "16,2",
+    "buy": "16,1",
+    "sell": "16,24",
+    "variation": "-0,3"
+  },
+  {
+    "name": "B3",
+    "asset": "B3SA3",
+    "last": "26,4",
+    "buy": "25,96",
+    "sell": "26,65",
+    "variation": "-0,19"
+  },
+  {
+    "name": "Banco do Brasil",
+    "asset": "BBAS3",
+    "last": "44,8",
+    "buy": "44,55",
+    "sell": "45,05",
+    "variation": "0,35"
+  },
+  {
+    "name": "Bradesco",
+    "asset": "BBDC3",
+    "last": "32,7",
+    "buy": 32,
+    "sell": "32,85",
+    "variation": "0,07"
+  },
+  {
+    "name": "Bradesco",
+    "asset": "BBDC4",
+    "last": "36,72",
+    "buy": "36,3",
+    "sell": "36,96",
+    "variation": "-0,08"
+  },
+  {
+    "name": "BB Seguridade",
+    "asset": "BBSE3",
+    "last": "27,2",
+    "buy": "26,85",
+    "sell": "27,68",
+    "variation": "0,37"
+  },
+  {
+    "name": "Bradespar",
+    "asset": "BRAP4",
+    "last": "31,17",
+    "buy": "30,91",
+    "sell": "31,63",
+    "variation": "-1,89"
+  },
+  {
+    "name": "BRF",
+    "asset": "BRFS3",
+    "last": "21,64",
+    "buy": "21,6",
+    "sell": "21,9",
+    "variation": "-0,86"
+  },
+  {
+    "name": "Braskem",
+    "asset": "BRKM5",
+    "last": "54,11",
+    "buy": "53,5",
+    "sell": "54,3",
+    "variation": "-0,22"
+  },
+  {
+    "name": "BR Malls Par",
+    "asset": "BRML3",
+    "last": "12,3",
+    "buy": 12,
+    "sell": "12,4",
+    "variation": "0,08"
+  },
+  {
+    "name": "B2W",
+    "asset": "BTOW3",
+    "last": "37,3",
+    "buy": 36,
+    "sell": "37,37",
+    "variation": "1,22"
+  },
+  {
+    "name": "CCR",
+    "asset": "CCRO3",
+    "last": "11,43",
+    "buy": "11,36",
+    "sell": "11,49",
+    "variation": "0,21"
+  },
+  {
+    "name": "Cielo",
+    "asset": "CIEL3",
+    "last": "9,25",
+    "buy": "9,23",
+    "sell": "9,47",
+    "variation": "-0,02"
+  },
+  {
+    "name": "Cemig",
+    "asset": "CMIG4",
+    "last": "12,3",
+    "buy": "12,15",
+    "sell": "12,41",
+    "variation": "0,08"
+  },
+  {
+    "name": "Copel",
+    "asset": "CPLE6",
+    "last": "28,95",
+    "buy": "28,69",
+    "sell": "29,37",
+    "variation": "-0,16"
+  },
+  {
+    "name": "Cosan",
+    "asset": "CSAN3",
+    "last": "33,1",
+    "buy": "32,38",
+    "sell": "33,23",
+    "variation": "-0,33"
+  },
+  {
+    "name": "CSN",
+    "asset": "CSNA3",
+    "last": "8,63",
+    "buy": "8,55",
+    "sell": "8,72",
+    "variation": "-0,32"
+  },
+  {
+    "name": "CVC Brasil",
+    "asset": "CVCB3",
+    "last": "58,15",
+    "buy": "56,5",
+    "sell": "58,35",
+    "variation": "0,39"
+  },
+  {
+    "name": "Cyrela",
+    "asset": "CYRE3",
+    "last": "14,02",
+    "buy": "13,9",
+    "sell": "14,3",
+    "variation": "-0,32"
+  },
+  {
+    "name": "Ecorodovias",
+    "asset": "ECOR3",
+    "last": "9,17",
+    "buy": "8,99",
+    "sell": "9,19",
+    "variation": "0,03"
+  },
+  {
+    "name": "Engie Brasil",
+    "asset": "EGIE3",
+    "last": "41,08",
+    "buy": "41,05",
+    "sell": "41,61",
+    "variation": "-0,07"
+  },
+  {
+    "name": "Eletrobras",
+    "asset": "ELET3",
+    "last": "24,57",
+    "buy": "24,4",
+    "sell": 25,
+    "variation": "-0,11"
+  },
+  {
+    "name": "Eletrobras",
+    "asset": "ELET6",
+    "last": "27,65",
+    "buy": "27,02",
+    "sell": "28,3",
+    "variation": "-0,17"
+  },
+  {
+    "name": "Embraer",
+    "asset": "EMBR3",
+    "last": "20,87",
+    "buy": "20,55",
+    "sell": 21,
+    "variation": "-0,34"
+  },
+  {
+    "name": "Energias BR",
+    "asset": "ENBR3",
+    "last": "13,18",
+    "buy": "13,17",
+    "sell": "13,52",
+    "variation": "-0,32"
+  },
+  {
+    "name": "Equatorial",
+    "asset": "EQTL3",
+    "last": "72,48",
+    "buy": "71,04",
+    "sell": "72,5",
+    "variation": "0,57"
+  },
+  {
+    "name": "Estácio Participações",
+    "asset": "ESTC3",
+    "last": "22,69",
+    "buy": "22,55",
+    "sell": "22,8",
+    "variation": "-0,67"
+  },
+  {
+    "name": "Fibria",
+    "asset": "FIBR3",
+    "last": "71,3",
+    "buy": "70,4",
+    "sell": "71,55",
+    "variation": "-0,07"
+  },
+  {
+    "name": "Fleury",
+    "asset": "FLRY3",
+    "last": "19,98",
+    "buy": "19,95",
+    "sell": "20,27",
+    "variation": "-0,25"
+  },
+  {
+    "name": "Gerdau",
+    "asset": "GGBR4",
+    "last": "14,92",
+    "buy": "14,86",
+    "sell": "14,97",
+    "variation": "-0,46"
+  },
+  {
+    "name": "Gerdau Met",
+    "asset": "GOAU4",
+    "last": "7,01",
+    "buy": 7,
+    "sell": "7,12",
+    "variation": "-0,34"
+  },
+  {
+    "name": "Gol",
+    "asset": "GOLL4",
+    "last": "21,9",
+    "buy": "21,89",
+    "sell": "22,18",
+    "variation": "-0,18"
+  },
+  {
+    "name": "Hypera",
+    "asset": "HYPE3",
+    "last": "31,25",
+    "buy": "31,05",
+    "sell": "31,3",
+    "variation": "0,69"
+  },
+  {
+    "name": "Iguatemi",
+    "asset": "IGTA3",
+    "last": "39,2",
+    "buy": "36,8",
+    "sell": "39,55",
+    "variation": "-0,16"
+  },
+  {
+    "name": "Itaúsa",
+    "asset": "ITSA4",
+    "last": "11,86",
+    "buy": "11,77",
+    "sell": "11,88",
+    "variation": "0,02"
+  },
+  {
+    "name": "Itaú Unibanco",
+    "asset": "ITUB4",
+    "last": "34,57",
+    "buy": "34,3",
+    "sell": "34,57",
+    "variation": "-0,04"
+  },
+  {
+    "name": "JBS",
+    "asset": "JBSS3",
+    "last": "10,86",
+    "buy": "10,79",
+    "sell": "10,98",
+    "variation": "-0,29"
+  },
+  {
+    "name": "Klabin",
+    "asset": "KLBN11",
+    "last": "17,16",
+    "buy": "17,13",
+    "sell": "17,65",
+    "variation": "-0,39"
+  },
+  {
+    "name": "Kroton",
+    "asset": "KROT3",
+    "last": "10,95",
+    "buy": "10,75",
+    "sell": 11,
+    "variation": "0,09"
+  },
+  {
+    "name": "Lojas Americanas",
+    "asset": "LAME4",
+    "last": "18,06",
+    "buy": "17,8",
+    "sell": "18,16",
+    "variation": "-0,07"
+  },
+  {
+    "name": "Lojas Renner",
+    "asset": "LREN3",
+    "last": "39,23",
+    "buy": 38,
+    "sell": "39,27",
+    "variation": "0,43"
+  },
+  {
+    "name": "Magazine Luiza",
+    "asset": "MGLU3",
+    "last": "162,35",
+    "buy": 161,
+    "sell": "162,4",
+    "variation": "2,35"
+  },
+  {
+    "name": "Marfrig",
+    "asset": "MRFG3",
+    "last": "6,27",
+    "buy": "6,15",
+    "sell": "6,42",
+    "variation": "-0,11"
+  },
+  {
+    "name": "MRV",
+    "asset": "MRVE3",
+    "last": "12,04",
+    "buy": "11,96",
+    "sell": "12,2",
+    "variation": "-0,21"
+  },
+  {
+    "name": "Multiplan",
+    "asset": "MULT3",
+    "last": "23,06",
+    "buy": "22,6",
+    "sell": "23,12",
+    "variation": "0,01"
+  },
+  {
+    "name": "Natura",
+    "asset": "NATU3",
+    "last": "38,42",
+    "buy": "38,18",
+    "sell": "39,29",
+    "variation": "0,05"
+  },
+  {
+    "name": "Pão de Açúcar - CBD",
+    "asset": "PCAR4",
+    "last": "83,15",
+    "buy": 81,
+    "sell": "83,56",
+    "variation": "1,76"
+  },
+  {
+    "name": "Petrobras",
+    "asset": "PETR3",
+    "last": "26,69",
+    "buy": "26,25",
+    "sell": "26,85",
+    "variation": "-0,64"
+  },
+  {
+    "name": "Petrobras",
+    "asset": "PETR4",
+    "last": "24,37",
+    "buy": "24,36",
+    "sell": "24,38",
+    "variation": "-0,78"
+  },
+  {
+    "name": "Qualicorp",
+    "asset": "QUAL3",
+    "last": "13,54",
+    "buy": "13,42",
+    "sell": "13,75",
+    "variation": "-0,36"
+  },
+  {
+    "name": "Raia Drogasil",
+    "asset": "RADL3",
+    "last": "62,71",
+    "buy": "62,5",
+    "sell": "64,18",
+    "variation": "-0,49"
+  },
+  {
+    "name": "Rumo",
+    "asset": "RAIL3",
+    "last": "17,3",
+    "buy": "17,28",
+    "sell": "17,54",
+    "variation": "-0,44"
+  },
+  {
+    "name": "Localiza",
+    "asset": "RENT3",
+    "last": "27,9",
+    "buy": "27,3",
+    "sell": "28,1",
+    "variation": "0,07"
+  },
+  {
+    "name": "Santander BR",
+    "asset": "SANB11",
+    "last": "42,21",
+    "buy": "41,32",
+    "sell": "42,25",
+    "variation": "0,43"
+  },
+  {
+    "name": "Sabesp",
+    "asset": "SBSP3",
+    "last": "27,67",
+    "buy": "27,2",
+    "sell": "27,8",
+    "variation": "0,15"
+  },
+  {
+    "name": "Smiles ON",
+    "asset": "SMLS3",
+    "last": "40,35",
+    "buy": "39,6",
+    "sell": "40,7",
+    "variation": "0,99"
+  },
+  {
+    "name": "Suzano Papel",
+    "asset": "SUZB3",
+    "last": "37,15",
+    "buy": "36,68",
+    "sell": "37,59",
+    "variation": "-0,77"
+  },
+  {
+    "name": "Taesa",
+    "asset": "TAEE11",
+    "last": "22,3",
+    "buy": "22,21",
+    "sell": "22,47",
+    "variation": "-0,45"
+  },
+  {
+    "name": "Tim",
+    "asset": "TIMP3",
+    "last": "11,18",
+    "buy": "11,1",
+    "sell": "11,36",
+    "variation": "-0,2"
+  },
+  {
+    "name": "Ultrapar",
+    "asset": "UGPA3",
+    "last": "45,6",
+    "buy": "45,19",
+    "sell": "45,9",
+    "variation": "0,2"
+  },
+  {
+    "name": "Usiminas",
+    "asset": "USIM5",
+    "last": "8,62",
+    "buy": "8,6",
+    "sell": "8,7",
+    "variation": "-0,44"
+  },
+  {
+    "name": "Vale",
+    "asset": "VALE3",
+    "last": "50,35",
+    "buy": "50,33",
+    "sell": "50,5",
+    "variation": "-3,69"
+  },
+  {
+    "name": "Telefônica",
+    "asset": "VIVT4",
+    "last": "45,7",
+    "buy": 45,
+    "sell": "46,3",
+    "variation": "-0,05"
+  },
+  {
+    "name": "WEG",
+    "asset": "WEGE3",
+    "last": "17,68",
+    "buy": "17,66",
+    "sell": "17,78",
+    "variation": "0,06"
+  }
+]
