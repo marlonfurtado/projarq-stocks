@@ -11,7 +11,7 @@ const CustomerSchema = new Schema({
     name: { type: String, required: true, max: 100 },
     login: { type: String, required: true, max: 16 },
     password: { type: String, required: true, max: 16 },
-    portfolio: { type: Schema.Types.ObjectId, ref: Portfolio_1.default },
-    transactions: { type: Schema.Types.ObjectId, ref: Transaction_1.default }
+    portfolios: [{ type: Schema.Types.ObjectId, ref: Portfolio_1.default }],
+    transactions: [{ type: Schema.Types.ObjectId, ref: Transaction_1.default }]
 });
 exports.default = mongoose_1.default.model('Customer', CustomerSchema);

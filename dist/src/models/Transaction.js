@@ -5,12 +5,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importDefault(require("mongoose"));
 const Asset_1 = __importDefault(require("./Asset"));
+const Portfolio_1 = __importDefault(require("./Portfolio"));
 const Schema = mongoose_1.default.Schema;
-const PortfolioSchema = new Schema({
-    description: { type: String, required: true, max: 100 },
-    products: [{
+const TransactionSchema = new Schema({
+    type: { type: String, required: true },
+    amount: { type: Number, required: true },
+    portfolio: { type: Schema.Types.ObjectId, ref: Portfolio_1.default },
+    product: [{
             asset: { type: Schema.Types.ObjectId, ref: Asset_1.default, required: true },
             total: { type: Number }
         }]
 });
-exports.default = mongoose_1.default.model('Portfolio', PortfolioSchema);
+exports.default = mongoose_1.default.model('Transaction', TransactionSchema);

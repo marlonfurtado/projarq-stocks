@@ -1,0 +1,7 @@
+{
+  "name": "ADMIN",
+  "login": "admin",
+  "password": "admin",
+  "portfolios": ["5bfc70a7dee96e98e4c609f7"],
+  "transactions": ["5bfc73e5dee96e98e4c624be"]
+}

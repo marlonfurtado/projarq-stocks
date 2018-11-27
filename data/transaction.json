@@ -1,0 +1,22 @@
+[{
+  "type": "BUY",
+  "amount": 1943,
+  "portfolio": "5bfc70a7dee96e98e4c609f7",
+  "product": [{
+      "asset": "5bf969c7dee96e98e4a9ed7a",
+      "total": 20
+    },
+    {
+      "asset": "5bf969c7dee96e98e4a9ed80",
+      "total": 15
+    },
+    {
+      "asset": "5bf969c7dee96e98e4a9ed99",
+      "total": 10
+    },
+    {
+      "asset": "5bf969c7dee96e98e4a9edac",
+      "total": 5
+    }
+  ]
+}]
