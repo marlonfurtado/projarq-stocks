@@ -9,13 +9,13 @@ class Buy extends ITransaction_1.default {
     constructor(amount, product, customer, portfolio) {
         super("BUY", amount, product, customer, portfolio);
     }
-    create() {
+    create(callback) {
         const transaction = new Transaction_1.default({
-            type: super.type,
-            amount: super.amount,
-            customer: super.customer,
-            portfolio: super.portfolio,
-            product: super.product
+            type: this.type,
+            amount: this.amount,
+            customer: this.customer,
+            portfolio: this.portfolio,
+            product: this.product
         });
         transaction.save((err, transaction) => {
             if (err)

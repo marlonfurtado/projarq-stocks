@@ -10,6 +10,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express = __importStar(require("express"));
 const PortfolioController = __importStar(require("../controllers/portfolio/Portfolio"));
 const router = express.Router();
+//Return all portfolios
+router.get('/', PortfolioController.getAll);
 // Return a portfolio by ID
 router.get('/:id', PortfolioController.getById);
 // Return a portfolio from customer

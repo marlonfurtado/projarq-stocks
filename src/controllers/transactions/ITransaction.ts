@@ -4,11 +4,11 @@ import Transaction from "../../models/Transaction"
 export default class ITransaction {
   type: String
   amount: Number
-  product: Object
+  product: Array<Object>
   customer: any
   portfolio: any
 
-  constructor(type: String, amount: Number, product: Object, customer: any, portfolio: any) {
+  constructor(type: String, amount: Number, product: Array<Object>, customer: any, portfolio: any) {
     this.type = type
     this.amount = amount
     this.product = product
@@ -16,7 +16,7 @@ export default class ITransaction {
     this.portfolio = portfolio
   }
 
-  create(req: Request, res: Response, next: NextFunction) { }
+  create(callback: Function) { }
 
   static getAll(req: Request, res: Response, next: NextFunction) {
     Transaction.find({}, (err: Error, transactions: any) => {

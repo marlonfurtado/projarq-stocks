@@ -4,6 +4,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const Portfolio_1 = __importDefault(require("../../models/Portfolio"));
+function getAll(req, res, next) {
+    Portfolio_1.default.find({}, (err, portfolio) => {
+        if (err)
+            return next(err);
+        res.send(portfolio);
+    });
+}
+exports.getAll = getAll;
 function getById(req, res, next) {
     const portfolioId = req.params.id;
     Portfolio_1.default.findById(portfolioId, (err, portfolio) => {

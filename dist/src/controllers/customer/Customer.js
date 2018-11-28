@@ -4,7 +4,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const Customer_1 = __importDefault(require("../../models/Customer"));
-function getCustomer(req, res, next) {
+function getAll(req, res, next) {
+    Customer_1.default.find({}, (err, customer) => {
+        if (err)
+            return next(err);
+        res.send(customer);
+    });
+}
+exports.getAll = getAll;
+function getByLogin(req, res, next) {
     const login = req.params.login;
     Customer_1.default.findOne({ login: login }, (err, customer) => {
         if (err)
@@ -12,7 +20,7 @@ function getCustomer(req, res, next) {
         res.send(customer);
     });
 }
-exports.getCustomer = getCustomer;
+exports.getByLogin = getByLogin;
 function getById(req, res, next) {
     const customerId = req.params.id;
     Customer_1.default.findById(customerId, (err, customer) => {

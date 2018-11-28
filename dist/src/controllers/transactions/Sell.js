@@ -9,7 +9,7 @@ class Sell extends ITransaction_1.default {
     constructor(amount, product, customer, portfolio) {
         super("SELL", amount, product, customer, portfolio);
     }
-    create() {
+    create(callback) {
         const transaction = new Transaction_1.default({
             type: super.type,
             amount: super.amount,

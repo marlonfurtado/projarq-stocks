@@ -10,8 +10,10 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const express = __importStar(require("express"));
 const CustomerController = __importStar(require("../controllers/customer/Customer"));
 const router = express.Router();
+// Return all customers
+router.get('/', CustomerController.getAll);
 // Return customer with login
-router.get('/', CustomerController.getCustomer);
+router.get('/:login', CustomerController.getByLogin);
 // Return a customer by ID
 router.get('/:id', CustomerController.getById);
 exports.default = router;

@@ -2,11 +2,11 @@ import ITransaction from "./ITransaction"
 import Transaction from "../../models/Transaction"
 
 export class Sell extends ITransaction {
-  constructor(amount: Number, product: Object, customer: any, portfolio: any) {
+  constructor(amount: Number, product: Array<Object>, customer: any, portfolio: any) {
     super("SELL", amount, product, customer, portfolio)
   }
 
-  create() {
+  create(callback: Function) {
     const transaction = new Transaction({
       type: super.type,
       amount: super.amount,

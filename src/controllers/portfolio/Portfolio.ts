@@ -1,6 +1,14 @@
 import { Request, Response, NextFunction } from "express"
 import Portfolio from '../../models/Portfolio'
 
+export function getAll(req: Request, res: Response, next: NextFunction) {
+  Portfolio.find({}, (err: Error, portfolio: any) => {
+    if (err) return next(err)
+
+    res.send(portfolio)
+  })
+}
+
 export function getById(req: Request, res: Response, next: NextFunction) {
   const portfolioId = req.params.id
   Portfolio.findById(portfolioId, (err: Error, portfolio: any) => {

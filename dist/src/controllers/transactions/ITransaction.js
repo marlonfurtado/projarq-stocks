@@ -12,7 +12,7 @@ class ITransaction {
         this.customer = customer;
         this.portfolio = portfolio;
     }
-    create(req, res, next) { }
+    create(callback) { }
     static getAll(req, res, next) {
         Transaction_1.default.find({}, (err, transactions) => {
             if (err)
