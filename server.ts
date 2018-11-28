@@ -1,9 +1,10 @@
 import express from 'express'
 import mongoose from 'mongoose'
 import bodyParser from 'body-parser'
+const cors = require('cors')
 
 // DATABASE
-const mongoDB = process.env.MONGODB_URI || "mongodb://marlonfurtado:stockskurtz123@ds115664.mlab.com:15664/stocks-kurtz"
+const mongoDB = process.env.MONGODB_URI || ""
 mongoose.connect(mongoDB)
 mongoose.Promise = global.Promise
 const db = mongoose.connection
@@ -13,6 +14,7 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 // SERVER
 const PORT = process.env.PORT || 3000
 const server = express()
+server.use(cors())
 server.use(bodyParser.json())
 server.use(bodyParser.urlencoded({ extended: true }))
 
